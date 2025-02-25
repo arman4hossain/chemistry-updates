@@ -22,15 +22,16 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+      - name: Fetch JSON from Google Apps Script API
+        run: curl -o data.json "https://script.google.com/macros/s/AKfycbzhBjhWJwhQDE94zCG1ZCCt2iI4RpmB_yJIgeE_O-lZCc-DoOTt-lZ6HM5FlW2GXN9C/exec"
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: Commit and push changes
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git commit -m "Updated JSON data"
+          git push
