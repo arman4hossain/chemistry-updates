@@ -1,10 +1,1 @@
-<HTML>
-<HEAD>
-<TITLE>Moved Temporarily</TITLE>
-</HEAD>
-<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
-<!-- GSE Default Error -->
-<H1>Moved Temporarily</H1>
-The document has moved <A HREF="https://script.googleusercontent.com/macros/echo?user_content_key=dIuVWppjM0GmGbru8u-m4BIG4uob1ujA0s5E1glzgA3NpIBAXi-th3-R8Qm_ogYnUVH0cqrHxVFFT-drfweGRCkKSHq9GxUnm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnHYujPgwPiqxHxYw0FF3xxSAMMZAcmrVSr3dJpDsZq5BZ7-IqFhATQV9OpEDUACoYJUbDfg_DJZLHTnMqvWMhs0pTEda1UDEcA&amp;lib=MDBhnnLVOSdZ3IeTm-rA4sL39OhQh-6NI">here</A>.
-</BODY>
-</HTML>
+<!DOCTYPE html><html><head><link rel="shortcut icon" href="//ssl.gstatic.com/docs/script/images/favicon.ico"><title>Error</title><style type="text/css" nonce="z2W7VCNrQtV4BLCWFqAQvA">body {background-color: #fff; margin: 0; padding: 0;}.errorMessage {font-family: Arial,sans-serif; font-size: 12pt; font-weight: bold; line-height: 150%; padding-top: 25px;}</style></head><body style="margin:20px"><div><img alt="Google Apps Script" src="//ssl.gstatic.com/docs/script/images/logo.png"></div><div style="text-align:center;font-family:monospace;margin:50px auto 0;max-width:600px">Exception: Service Spreadsheets failed while accessing document with id 1QtHI6t8Jv7V3ufr90sZl_MJUkOIJEvKfRFUQGxTuxZU. (line 27, file &quot;Code&quot;)</div></body></html>
